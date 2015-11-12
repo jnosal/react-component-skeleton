@@ -1,0 +1,10 @@
+{
+  "name": "ar-react-component-skeleton-src",
+  "private": true,
+  "version": "0.0.0",
+  "browserify-shim": {
+    "react": "global:React",
+    "lodash": "global:_",
+    "react-bootstrap": "global:ReactBootstrap"
+  }
+}

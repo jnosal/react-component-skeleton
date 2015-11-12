@@ -1,0 +1,71 @@
+{
+  "name": "ar-react-component-skeleton",
+  "version": "0.1.0",
+  "description": "This is a component skeleton. No changes have been made to what the yeoman generator outputs.",
+  "author": "frontend-core@adroll.com",
+  "main": "./src/components/ReactComponentSkeleton.jsx",
+  "publishConfig": {
+    "registry": "https://adrollserv.artifactoryonline.com/adrollserv/api/npm/npm-local"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/SemanticSugar/rollup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SemanticSugar/rollup/issues"
+  },
+  "homepage": "https://github.com/SemanticSugar/rollup/tree/master/ar-react-component-skeleton",
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
+  "peerDependencies": {
+    "babelify": "^6.1.2",
+    "react": "^0.13.3"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
+    "testDirectoryName": "tests",
+    "testFileExtensions": [
+      "js",
+      "jsx"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "jsx"
+    ],
+    "modulePathIgnorePatterns": [
+      "./dist/",
+      "./examples/",
+      "./node_modules/"
+    ],
+    "testPathIgnorePatterns": [
+      "./dist/",
+      "./examples/",
+      "./node_modules/",
+      "./src/"
+    ],
+    "unmockedModulePathPatterns": [
+      "./node_modules/lodash",
+      "./node_modules/react"
+    ]
+  },
+  "devDependencies": {
+    "ar-i18n-noop": "^1.1.1",
+    "babel-jest": "^5.3.0",
+    "jest-cli": "^0.6.1",
+    "react": "^0.13.3"
+  },
+  "dependencies": {
+    "ar-style-base": "^1.0.34",
+    "bootstrap-sass": "^3.3.5",
+    "classnames": "^2.2.0",
+    "font-awesome": "^4.4.0",
+    "lodash": "^3.10.1",
+    "react-bootstrap": "^0.26.4"
+  }
+}
