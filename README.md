@@ -1,4 +1,4 @@
-**NOTE: This repo only exists to illustrate the blog posts on tech.adroll.com and is not intended to be a functional component.**
+**NOTE: This repo only exists to illustrate the blog posts on [tech.adroll.com](http://tech.adroll.com/blog/frontend/2015/11/12/rollup-react-and-npm-at-adroll.html) and is not intended to be a functional component.**
 
 # ar-react-component-skeleton
 
